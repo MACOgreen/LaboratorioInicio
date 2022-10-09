@@ -13,7 +13,7 @@
 
         <a-assets>
             <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
-            <a-asset-item id="3Dasset" src="models/wraith.gltf"></a-asset-item>
+            <a-asset-item id="3Dasset" src="models/CesiumMan.gltf"></a-asset-item>
         </a-assets>
 
         <a-marker id="animated-marker" type='barcode' value='6'>
@@ -34,6 +34,7 @@
 
         <a-marker id="animated-marker" type='barcode' value='9'>
             <a-entity
+                animation-mixer
                 gltf-model="#3Dasset"
                 scale="2 2 2">
             </a-entity>
